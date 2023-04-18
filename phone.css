@@ -1,0 +1,34 @@
+/* ::heading */
+#navbar #logo{
+    flex-direction: column;
+}
+
+/* our services  */
+#ser{
+    flex-wrap: wrap;
+}
+
+#intro{
+    flex-direction: row;
+}
+
+/* in india */
+
+#butn{
+    flex-wrap: wrap;
+}
+/* #butn::before{
+    flex-wrap: wrap;
+} */
+
+/* country */
+
+#desh{
+    flex-wrap: wrap;
+}
+
+/* table */
+
+#tbl{
+    flex-wrap: wrap;
+}

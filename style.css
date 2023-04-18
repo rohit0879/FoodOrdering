@@ -1,0 +1,312 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Css Variables */
+#navbar{
+     display: flex;
+     align-items: center;
+    
+}
+
+#navbar::before{
+  content: "";
+  background-color: rgb(34, 34, 30);
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+/* logo */
+
+#logo img{
+    height: 80px; 
+    margin: 4px 4px;
+}
+
+.item a{
+    color: aliceblue;
+    margin: 4px 16px;
+    border-radius: 10px;
+}
+
+.item a:hover{
+    color: black;
+    background-color: aliceblue;
+}
+
+/* Home Page */
+
+#home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    background:url('../Restro_img.jpg') no-repeat center center/cover;
+    height:75%;
+    width: 100%;
+    z-index: -1;
+}
+
+.h1{
+    color: rgb(221, 228, 234);
+    padding: 70px;
+ }
+
+.para{
+   color: rgb(221, 228, 234);
+   font-size: 1.0rem;
+}
+
+.but{
+    padding: 3px 4px;
+    color: rgb(213, 221, 230);
+    background-color: rgb(162, 158, 65); 
+    border: 2px solid rgb(238, 225, 225);
+    border-radius: 4px;
+ }
+
+ .but:hover{
+    background-color: rgb(71, 133, 115); 
+ }
+
+ /* our Services */
+ #hs{
+   text-align: center;
+   margin-top: 175px;
+   margin-bottom: 50px;
+ }
+ #ser{
+    display: flex;
+    margin:5px;
+ }
+
+ /* egg items */
+
+ #ser .id1{
+   border-radius: 23px;
+   border: 4px solid red;
+   margin: 10px;
+   height: 300px;
+   width: 200px;
+   padding: 10px;
+ }
+
+  #ser .id1 img{
+    height: 100px;
+    width:150px;
+    display: block;
+    margin: auto;
+
+ } 
+ #ser .id1 h2{
+     text-align: center;
+  }
+
+  /* fast food */
+
+#ser #id2{
+    border-radius:23px ;
+    border: 4px solid red;
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    width: 200px;
+}
+#ser #id2 img{
+   display: block;
+   margin: auto;
+   height: 100px;
+   width: 150px;
+}
+
+#id2 h2{
+    text-align: center;
+}
+
+/* Non veg */
+
+#ser #id3{
+    border-radius:23px ;
+    border: 4px solid red;
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    width: 200px;
+}
+
+#ser #id3 img{
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: 150px;
+ }
+ #id3 h2{
+    text-align: center;
+}
+
+/* Pizza */
+
+#ser #id4{
+    border-radius:23px ;
+    border: 4px solid red;
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    width: 200px;
+}
+
+#ser #id4 img{
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: 150px;
+ }
+ #id4 h2{
+    text-align: center;
+}
+
+/* Breakfast */
+
+#ser #id5{
+    border-radius:23px ;
+    border: 4px solid red;
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    width: 200px;
+}
+
+#ser #id5 img{
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: 150px;
+ }
+ #id5 h2{
+    text-align: center;
+}
+
+/* Popular location in india */
+
+h1{
+   text-align: center;
+   margin-top: 30px;
+}
+h1 img{
+    height: 30px;
+    width: 43px;
+    border-radius: 4px;
+}
+
+#intro{
+    text-align: center;
+    margin: 20px 4px;
+}
+
+/* Loacaton */
+
+#butn{
+    display: flex;
+    align-items: center;
+}
+
+#butn::before{
+   content: "";
+   position: absolute;
+   background: url('../Itly.webp') no-repeat center center/cover;
+   z-index: -1;
+   width: 100%;
+   height: 400px;
+   opacity: 0.6;
+}
+
+#butn .capital{
+    margin: 55px;
+    padding: 30px;
+}
+#butn .capital .b{
+    margin: 17px;
+    padding: 12px 87px;
+    background-color: rgb(218, 212, 205);
+    border-radius: 5px;
+}
+
+#butn .b:hover{
+    background-color: rgb(241, 232, 232);
+}
+
+/* country Location */
+
+#desh{
+    display: flex;
+    align-items: center;
+}
+
+#desh .country{
+    margin: 55px;
+    padding: 30px;
+}
+#desh .country .c{
+    margin: 17px;
+    padding: 12px 87px;
+    background-color: rgb(218, 212, 205);
+    border-radius: 5px;
+}
+
+#desh .c:hover{
+    background-color: rgb(241, 232, 232);
+}
+
+#desh .country img{
+    height: 25px;
+    width: 60px;
+}
+
+/* table */
+
+#tbl::before{
+    content: "";
+    background: url(../massage.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 332px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+  }
+
+  #tbl{
+    display: flex;
+  }
+
+.com{ 
+   margin: 28px;
+   padding: 10px;
+}
+
+.con{ 
+    text-align: center;
+    margin: 28px;
+    padding: 10px;
+ }
+
+ .leg{ 
+    margin: 28px;
+    padding: 10px;
+ }
+
+ #last{
+    margin: 4px 4px;
+ }
+
+
+
+
